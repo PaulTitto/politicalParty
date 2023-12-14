@@ -4,8 +4,8 @@
     <div v-if="loading">Loading...</div>
     <div v-else-if="error">Error: {{ error }}</div>
     <div v-else>
-      <div class="flex flex-wrap -mx-4 shadow-2xl">
-        <div v-for="article in data.articles" :key="article.source.id" class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-4">
+      <div class="flex flex-wrap -mx-4 card-container">
+        <div v-for="article in jsonData.articles" :key="article.source.id" class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 p-4">
           <div class="card-news bg-white p-4 rounded-md shadow-md">
             <div class="card-header mb-4">
               <h2 class="text-l font-semibold">{{ truncateTitle(article.title) }}</h2>
@@ -25,7 +25,14 @@
   </div>
 </template>
 
+
+
+
 <style scoped>
+
+.card-container{
+
+}
 .card-image-container {
   height: 100px; 
   overflow: hidden;
@@ -44,8 +51,11 @@
 </style>
 
 <script setup>
-import { useFetch } from '@/composable/useFetch.js';
-const { data, loading, error } = useFetch('https://newsapi.org/v2/everything?q="brexitparty"&language=en&from=2023-11-13&sortBy=publishedAt&apiKey=68db66d6c4fa4fcfbd5c8bbd70648bef');
+import jsonData from '../assets/json/news.json'
+
+
+// import { useFetch } from '@/composable/useFetch.js';
+// const { data, loading, error } = useFetch('https://newsapi.org/v2/everything?q="brexitparty"&language=en&from=2023-11-13&sortBy=publishedAt&apiKey=68db66d6c4fa4fcfbd5c8bbd70648bef');
 
 const truncateDescription = (description) => {
   return description.length > 100 ? `${description.slice(0, 100)}...` : description;

@@ -15,6 +15,11 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue')
     },
     {
+      path: '/latest_news',
+      name: 'news',
+      component: () => import('../views/NewsView.vue')
+    },
+    {
       path: '/contact',
       name: 'cintact',
       component: () => import('../views/ContactView.vue')

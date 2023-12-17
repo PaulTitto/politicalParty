@@ -50,18 +50,22 @@
   </style>
   
   <script setup>
-  import jsonData from '../../assets/json/news.json'
   
   // I do now why cannt with axioss heeh
   // import { useFetch } from '@/composable/useFetch.js';
   // const { data, loading, error } = useFetch('https://newsapi.org/v2/everything?q="brexitparty"&language=en&from=2023-11-13&sortBy=publishedAt&apiKey=68db66d6c4fa4fcfbd5c8bbd70648bef');
+  import jsonData from '../../assets/json/news.json'
   
   const truncateDescription = (description) => {
-    return description.length > 100 ? `${description.slice(0, 100)}...` : description;
-  };
-  
-  const truncateTitle = (title) => {
-    return title.length > 50 ? `${title.slice(0, 50)}...` : title;
-  };
+  return description.length > 100 ? `${description.slice(0, 100)}...` : description;
+};
+
+const truncateTitle = (title) => {
+  return title.length > 50 ? `${title.slice(0, 50)}...` : title;
+};
+
+const showFullDescription = (article) => {
+  article.showFullDescription = !article.showFullDescription;
+};
   </script>
   

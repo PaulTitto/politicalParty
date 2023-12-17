@@ -21,9 +21,13 @@ const router = createRouter({
     },
     {
       path: '/contact',
-      name: 'cintact',
+      name: 'contact',
       component: () => import('../views/ContactView.vue')
-    }
+    },{
+      path: '/*/',
+      name: 'PageNotFound',
+      component: () => import('../views/NotFound.vue')
+  }
   ]
 })
 

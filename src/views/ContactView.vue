@@ -7,7 +7,7 @@
     />
   </div>
   <div class="w-full bg-gray pt-3">
-    <div class="max-w-4xl mx-auto  p-6 bg-gray rounded-md">
+    <div class="max-w-4xl mx-auto p-6 bg-gray rounded-md">
       <form class="grid grid-cols-2 gap-4">
         <div class="col-span-2 mb-4 relative">
           <input

@@ -1,0 +1,62 @@
+<template>
+    <div>
+      <div class="container-leader w-full mt-16">
+        
+        <div class="mt-2"></div>
+        <div class="title-leader max-w-4xl md:mx-10 lg:mx-20 mx-auto mt-16 mb-8">
+          <h1 class="text-blue-300">Meet Paul Titto</h1>
+          <p>Leader of the Liberal Democrats</p>
+        </div>
+  
+        <div class="title-bio max-w-xs md:mx-20 lg:mx-20 mx-auto">
+          <p>
+            Paul Titto is a Student, a Friend, and a carer. He is the MP for Kingston
+            and Surbiton and Leader of the Liberal Democrats.
+          </p>
+          <p>
+            It is Ed’s experience of caring that drives much of his politics, and
+            motivates his tireless campaigning for a fair deal.
+          </p>
+        </div>
+  
+        <div class="learn-title max-w-sm md:mx-20 lg:mx-20 mx-auto mb-8">
+          <a href="#" class="text-blue-300">Learn more about Paul Titto</a>
+          <h1 class="text-2xl mt-5 font-semibold mb-5">Our people</h1>
+          <p>Meet our MPs, representatives, and candidates.</p>
+        </div>
+      </div>
+    </div>
+  </template>
+  
+  <style scoped>
+  .title-bio p {
+    padding-bottom: 20px;
+  }
+  
+  .title-leader h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    position: relative;
+  }
+  
+  .title-leader p {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .learn-title a {
+    color: #3498db; /* Use your desired link color */
+    text-decoration: underline;
+  }
+  
+  .container-leader {
+    position: relative;
+    color: white;
+    background-color: #16253b;
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+  }
+  </style>
+  

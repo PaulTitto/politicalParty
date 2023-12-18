@@ -1,7 +1,7 @@
 <template>
   <div class="max-w-4xl mx-auto p-6">
     <div
-      class="card-news bg-white p-4 rounded-md shadow-xl hover:shadow-2xl transition duration-300 text-center mb-10"
+      class="card-news bg-white p-4 rounded-md shadow-xl hover:shadow-xl transition duration-300 text-center mb-10"
     >
       <p>
         Need to get in touch? Find a list of our central offices and contact
@@ -32,7 +32,7 @@
 
     <div class="container-addres mb-16">
       <h1 class="font-bold text-2xl mb-2">Need to speak to one of our elected representatives?</h1>
-      <p class="font-semibold text-1xl mb-1">Find your local MLA here, your local councillor here, or MP here.</p>
+      <p class="font-semibold text-1xl mb-1">Find your local MLA <a href="#" class="font-bold">here</a>, your local councillor <a href="#" class="font-bold">here</a>, or MP <a href="#" class="font-bold">here</a>.</p>
     </div>
 
     <div>

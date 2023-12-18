@@ -30,7 +30,9 @@
   
   
   <style scoped>
-  
+  body{
+    font-family: Open Sans,sans-serif;
+  }
  
   .card-image-container {
     height: 100px; 

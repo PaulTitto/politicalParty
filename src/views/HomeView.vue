@@ -1,4 +1,5 @@
 <template>
+  <Leader/>
   <div class="pt-16 mx-4 md:mx-10 lg:mx-20">
     <Mission/>
     <AppliMem/>
@@ -21,6 +22,7 @@ import Mission from '@/components/homeui/Mission.vue';
 import Donate from '@/components/homeui/Donate.vue'
 import AppliMem from '../components/homeui/AppliMem.vue';
 import Contact from '@/components/ui/Contact.vue';
+import Leader from '../components/ui/Leader.vue';
 </script>
 
 <style scoped>

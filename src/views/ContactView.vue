@@ -6,15 +6,21 @@
       alt=""
     />
   </div>
+  <div class="w-full bg-white mx-auto p-6">
+  <Address/>
+</div>
   <div class="w-full bg-gray pt-3">
+    
+    
     <div class="max-w-4xl mx-auto p-6 bg-gray rounded-md">
     <Contact/>
-  </div>
+    </div>
   </div>
 </template>
 <script setup>
 
 import Contact from '@/components/ui/Contact.vue';
+import Address from '@/components/ui/Address.vue';
 </script>
 
 

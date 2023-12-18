@@ -1,5 +1,5 @@
 <template>
-  <div class="AppMem max-w-4xl mx-auto mt-10 mb-10">
+  <div class="AppMem max-w-4xl md:mx-10 lg:mx-20 mx-auto mt-10 mb-10">
     <table class="table-auto w-full">
       <tbody>
         <tr>

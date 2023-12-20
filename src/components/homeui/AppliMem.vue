@@ -1,6 +1,6 @@
 <template>
   <div class="AppMem max-w-4xl md:mx-10 lg:mx-20 mx-auto mt-10 mb-10">
-    <table class="table-auto w-full">
+    <table class="table table-auto w-full">
       <tbody>
         <tr>
           <td class="colum-cel p-4 text-white bg-black">

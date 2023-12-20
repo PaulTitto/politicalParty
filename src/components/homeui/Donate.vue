@@ -88,6 +88,19 @@
             </label>
           </div>
         </div>
+
+        <div class="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 px-2 mb-3">
+          <div class="flex items-center">
+            <input type="radio" class="hidden" />
+            <label
+              for="donation"
+              class="container-money cursor-pointer radio btn p-3 btn-color-2 bg-blue-500 hover:bg-blue-400"
+              role="button"
+            >
+              <a href="#">-></a>
+            </label>
+          </div>
+        </div>
       </div>
     </div>
   </div>

@@ -23,7 +23,13 @@ const router = createRouter({
       path: '/contact',
       name: 'contact',
       component: () => import('../views/ContactView.vue')
-    },{
+    },
+    {
+      path: '/history',
+      name: 'history',
+      component: () => import('../views/HistroyView.vue')
+    }
+    ,{
       path: '/*/',
       name: 'PageNotFound',
       component: () => import('../views/NotFound.vue')

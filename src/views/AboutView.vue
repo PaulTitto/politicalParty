@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-20">
+  <div class="">
     <QnA
       buttonText="Apa itu Partai Labour?"
       panelContent="Partai Labour adalah partai politik di Inggris yang didirikan pada tahun 1900. Partai ini secara tradisional mewakili kepentingan buruh dan kelas pekerja."

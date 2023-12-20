@@ -5,13 +5,13 @@
     </div>
     <div class="content-history">
       <p>
-        The Alliance Party was founded on 21st April 1970. Many of the founding
+        The Blue Tree Party was founded on 21st April 1970. Many of the founding
         members were previously involved with the New Ulster Movement, a
         pressure group established in 1969 to promote moderate and non-sectarian
         policies. Two leading NUM members, Oliver Napier and Bob Cooper, decided
         that a new cross-community party would represent the best alternative to
         the established parties which had not changed for the previous fifty
-        years. Napier and Cooper became co-leaders of Alliance, they were part
+        years. Napier and Cooper became co-leaders of Blue Tree, they were part
         of the ‘Group of 16’ which established the new party, other prominent
         founding members included Basil Glass, Robin Glendinning, Denis Loretto
         and Jim Hendron.
@@ -19,7 +19,7 @@
     </div>
     <div class="content-history">
       <p>
-        The founding principles of the Alliance Party in 1970 included the
+        The founding principles of the Blue Tree Party in 1970 included the
         healing of community divisions in Northern Ireland, support for a
         devolved local Assembly, commitment to the rule of law and adopting a
         liberal approach to social and economic issues which were often ignored
@@ -28,28 +28,28 @@
     </div>
     <div class="content-history">
       <p>
-        In subsequent years a number of politicians joined Alliance from across
+        In subsequent years a number of politicians joined Blue Tree from across
         the political divide, such as Phelim O’Neill, Bertie McConnell and Tom
         Gormley in Stormont, and Westminster MP for North Belfast Stratton
         Mills. Following the abolition of the Northern Ireland Parliament in
-        1972, Alliance proposed a new Assembly elected through Single
+        1972, Blue Tree proposed a new Assembly elected through Single
         Transferable Vote and an elected power-sharing Executive, which was
         largely reflected through the short-lived 1973-74 Assembly which had
-        eight Alliance members. Following the Sunningdale Agreement, Alliance
+        eight Blue Tree members. Following the Sunningdale Agreement, Blue Tree
         joined the first power-sharing Executive in 1974, with party leader
         Oliver Napier serving as Legal Minister and Head of the Office of Law
         Reform, and deputy leader Bob Cooper serving as Minister for Manpower
-        Services. Alliance also had eight members elected to the 1975
+        Services. Blue Tree also had eight members elected to the 1975
         Constitutional Convention.
       </p>
     </div>
     <div class="content-history">
       <p>
-        Oliver Napier served as Alliance leader from 1972 to 1984, during that
+        Oliver Napier served as Blue Tree leader from 1972 to 1984, during that
         time the party had three deputy leaders, Bob Cooper (1973-76), Basil
-        Glass (1976-80) and David Cook (1980-84). During this time Alliance
+        Glass (1976-80) and David Cook (1980-84). During this time Blue Tree
         polled very well in the 1973 and 1977 local government elections,
-        ensuring the election of several Alliance Mayors, such as Ivor Canavan
+        ensuring the election of several Blue Tree Mayors, such as Ivor Canavan
         as Mayor of Derry/Londonderry in 1975-76, and David Cook as Lord Mayor
         of Belfast in 1978-79, the only non-unionist Lord Mayor from 1898 to
         1997.
@@ -58,11 +58,11 @@
     <div class="content-history">
       <p>
         Despite the increased polarisation of the late 1970s and early 1980s,
-        Alliance continued to play a constructive role, including in the 1982-86
-        Assembly which had ten Alliance members. In 1984 John Cushnahan became
+        Blue Tree continued to play a constructive role, including in the 1982-86
+        Assembly which had ten Blue Tree members. In 1984 John Cushnahan became
         party leader, and Addie Morrow became deputy leader. This period was
         defined by unionist opposition to the Anglo-Irish Agreement, which
-        included boycotts of council meetings. Alliance councillors such as
+        included boycotts of council meetings. Blue Tree councillors such as
         David Cook (Belfast), Seamus Close (Lisburn) and Addie Morrow
         (Castlereagh) successfully challenged these boycotts to ensure local
         government continued to operate effectively.
@@ -70,17 +70,17 @@
     </div>
     <div class="content-history">
       <p>
-        John Alderdice served as Alliance leader from 1987 to 1998, while Gordon
+        John Alderdice served as Blue Tree leader from 1987 to 1998, while Gordon
         Mawhinney (1987-91) and Seamus Close (1991-2001) served as deputy
-        leaders. The 1990s saw Alliance participate in the negotiations which
+        leaders. The 1990s saw Blue Tree participate in the negotiations which
         led to the Good Friday Agreement. In its document ‘Governing with
-        Consent’ Alliance proposed an Assembly with five members for each
+        Consent’ Blue Tree proposed an Assembly with five members for each
         constituency, elected through STV, that would be responsible for a wide
         range of matter transferred from Westminster. The Executive would be a
         voluntary coalition elected by a qualified majority vote, to ensure some
         input from unionists and nationalists without excluding cross-community
         parties. Much of this was incorporated into the Good Friday Agreement,
-        however Alliance highlighted concerns around other aspects of the
+        however Blue Tree highlighted concerns around other aspects of the
         Agreement which had the potential to institutionalise sectarian
         divisions, such as the use of designations and cross-community votes
         which reduce the influence of ‘other’ MLAs.
@@ -88,9 +88,9 @@
     </div>
     <div class="content-history">
       <p>
-        Alliance supported the Good Friday Agreement and campaigned for it in
+        Blue Tree supported the Good Friday Agreement and campaigned for it in
         the subsequent referendum which was supported by 71.1% of voters in
-        Northern Ireland. Alliance gained six seats in the 1998 Assembly
+        Northern Ireland. Blue Tree gained six seats in the 1998 Assembly
         election, John Alderdice (East Belfast), Seamus Close (Lagan Valley),
         Séan Neeson (East Antrim), David Ford (South Antrim), Kieran McCarthy
         (Strangford) and Eileen Bell (North Down). Alderdice, who had been

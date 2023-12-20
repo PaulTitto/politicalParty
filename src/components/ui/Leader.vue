@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container-leader w-full mt-16">
+    <div class="container-leader w-full ">
       <div class="flex-container">
         <div class="photo    md:mx-20 lg:mx mx-auto mt-10">
           <img src="../../assets/img/PaulTitto.png" class="photo-right" alt="">

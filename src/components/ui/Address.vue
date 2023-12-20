@@ -13,7 +13,7 @@
       <p class="font-semibold text-1xl mb-1">7 Farmley Road</p>
       <p class="font-semibold text-1xl mb-1">Newtownabbey, BT36 7TY</p>
       <p class="font-semibold text-1xl mb-1">Tel: 028 9032 4274</p>
-      <p class="font-semibold text-1xl mb-1">Email: alliance@bluetreeparty.org</p>
+      <p class="font-semibold text-1xl mb-1">Email: Blue Tree@bluetreeparty.org</p>
     </div>
     <div class="container-addres mb-16">
         <h1 class="font-bold text-3xl mb-2">North-West office</h1>

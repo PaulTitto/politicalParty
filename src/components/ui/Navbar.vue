@@ -16,6 +16,8 @@
             <div class="dropdown-content">
               <ul>
                 <li><RouterLink to="/about">About</RouterLink></li>
+                <li><RouterLink to="/latest_news">News</RouterLink></li>
+                <li><RouterLink to="/history">History</RouterLink></li>
               </ul>
             </div>
           </li>
@@ -90,8 +92,9 @@ body {
 .party-name {
   position: absolute;
   padding-left: 70px;
-  font-size: 24px; /* Adjust as needed */
-  color: white; /* Or any color you prefer */
+  font-size: 16px; 
+  font-weight: 500;
+  color: white; 
 }
 
 .menu {
@@ -114,8 +117,8 @@ body {
   padding-top: 2px;
   display: none;
   position: absolute;
-  top: 100%;  
-  left: 0;    
+  top: 100%;  /* Position it right below the dropdown menu item */
+  left: 0;    /* Align it with the left side of the dropdown menu item */
   background-color: #333;
   min-width: 150px;
   z-index: 1;

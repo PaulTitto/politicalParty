@@ -32,9 +32,7 @@
 </template>
 
 <style scoped>
-.table{
-  margin-left:60px ;
-}
+
 .colum-cel {
   
   border: 1px double white;

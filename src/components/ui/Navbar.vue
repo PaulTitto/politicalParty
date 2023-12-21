@@ -1,60 +1,55 @@
 <template>
   <div class="relative">
-    
-      <div class="navbar sticky top-0">
-        <div class="logo">Logo</div>
-        <div class="menu">
-          <ul>
-            <li><RouterLink to="/">Home</RouterLink></li>
-            <li class="dropdown">
-              <a href="#">About ▼</a>
-              <div class="dropdown-content">
-                <ul>
-                  <li><RouterLink to="/about" >About</RouterLink></li>
-                </ul>
-                <ul>
-                  <li><RouterLink to="/about" >About</RouterLink></li>
-                </ul>
-                
-              </div>
-            </li>
-            <li><RouterLink to="/contact" exact class="router-link" active-class="active-router-link">Contact</RouterLink></li>
-          </ul>
+    <div class="navbar sticky top-0">
+      <div class="logo-container">
+        <div class="logo">
+          <img src="../../assets/img/icon.png" alt="The Blue Tree Party Logo">
         </div>
-        <div class="menu-toggle" id="mobile-menu">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
+        <div class="party-name">The Blue Tree Party</div>
       </div>
-      <!-- <nav class="bg-red-500 text-white">
-        <div class="container mx-auto py-4">
-          <ul class="flex space-x-4 pt-3">
-            <li class="text-white">
-              
-              
-              <RouterLink to="/latest_news" exact class="router-link" active-class="active-router-link">News</RouterLink>
-              
-            </li>
-          </ul>
-        </div>
-      </nav> -->
-   
-   
+      <div class="menu" :class="{'active': isMenuOpen}">
+        <ul>
+          <li><RouterLink to="/">Home</RouterLink></li>
+          <li class="dropdown">
+            <!-- <a href="#">About ▼</a> -->
+            <RouterLink to="#" class="m-4 pointer-events-none">About ▼</RouterLink>
+            <div class="dropdown-content">
+              <ul>
+                <li><RouterLink to="/about">About</RouterLink></li>
+              </ul>
+            </div>
+          </li>
+          <li><RouterLink to="/contact">Contact</RouterLink></li>
+        </ul>
+      </div>
+      <div class="menu-toggle" id="mobile-menu" @click="toggleMenu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
   </div>
 </template>
 
 <script setup>
 import { ref } from 'vue';
-import { RouterLink } from 'vue-router'
+import { RouterLink } from 'vue-router';
 
+const isMenuOpen = ref(false); 
+
+const toggleMenu = () => {
+  isMenuOpen.value = !isMenuOpen.value;
+};
 </script>
 
 
 
 <style scoped>
 
-
+.logo img{
+  width: 20%;
+  height: 20%;
+}
 .router-link {
   margin-right: 10px; /* Adjust the margin as needed */
 }
@@ -83,8 +78,20 @@ body {
   color: white;
 }
 
+.logo-container {
+  display: flex; /* This will ensure the logo and party name appear side by side */
+  align-items: center; /* Vertically align them in the middle */
+}
+
 .logo {
-  font-size: 24px;
+  margin-right: 0px; /* Add some spacing between the logo and party name */
+}
+
+.party-name {
+  position: absolute;
+  padding-left: 70px;
+  font-size: 24px; /* Adjust as needed */
+  color: white; /* Or any color you prefer */
 }
 
 .menu {
@@ -104,9 +111,9 @@ body {
 }
 
 .menu ul li.dropdown .dropdown-content {
+  padding-top: 2px;
   display: none;
   position: absolute;
-  
   top: 100%;  
   left: 0;    
   background-color: #333;
@@ -114,17 +121,17 @@ body {
   z-index: 1;
 }
 
-.menu ul li.dropdown .dropdown-content li {
-  margin-bottom: 20px;
+.menu ul li.dropdown .dropdown-content ul li {
+  margin: 20px 0px;
 }
 
 .menu ul li.dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* If you want to add space between dropdown items, adjust this margin-bottom */
+
 .menu ul li.dropdown .dropdown-content ul li:not(:last-child) {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .menu a {
   color: white;
@@ -138,6 +145,9 @@ body {
   background-color: #555;
 }
 
+.menu.active {
+  display: flex;
+}
 .menu-toggle {
   display: none;
   flex-direction: column;
@@ -151,7 +161,7 @@ body {
   background-color: white;
 }
 
-/* Responsive Styles */
+
 @media (max-width: 768px) {
   .menu {
     display: none;
@@ -168,7 +178,7 @@ body {
   }
 
   .menu-toggle {
-    order: 1; /* Move the toggle to the rightmost side */
+    order: 1; 
   }
 
   .menu ul {
